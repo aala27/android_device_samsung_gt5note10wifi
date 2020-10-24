@@ -18,3 +18,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Telephony
 PRODUCT_PROPERTY_OVERRIDES += \
 	telephony.lteOnCdmaDevice=0
+
+#OpenGles 2.0
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.opengles.version=131072
